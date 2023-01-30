@@ -1,0 +1,30 @@
+.home {
+  background-image: linear-gradient(to bottom right, #6bb1f7, #0a56d0);
+  margin-top: -120px;
+  border-bottom-right-radius: 50% 100%;
+}
+.home-container {
+  display: flex;
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0px 50px;
+  padding-top: 200px;
+  padding-bottom: 300px;
+}
+.home-description-section {
+  width: 50vw;
+  margin: auto 0;
+}
+.home-description-section h1 {
+  font-size: 42px;
+}
+.home-img-section {
+  width: 50vw;
+}
+.home-img {
+  width: 700px;
+}
+
+.fullname {
+  color: rgb(43, 46, 226);
+}

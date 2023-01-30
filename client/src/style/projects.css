@@ -1,0 +1,34 @@
+.projects {
+  width: 1100px;
+  display: flex;
+  padding: 50px;
+  border-radius: 18px;
+  background-color: rgba(240, 248, 255, 0.521);
+  margin: 0 auto;
+  margin-top: -200px;
+}
+
+.projects-img-section {
+  width: 30vw;
+  background-image: linear-gradient(to bottom left, #6cb1fe, #43b8fd, #5551e6);
+  overflow: hidden;
+  border-radius: 18px;
+}
+.project-background-img {
+  width: 400px;
+}
+.projects-list {
+  width: 60vw;
+}
+
+.projects-list ul {
+  list-style-type: none;
+  margin-top: 0px;
+}
+.projects-list ul li {
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #70a7fa, #065ae1);
+  margin-bottom: 10px;
+
+  border-radius: 12px;
+}
