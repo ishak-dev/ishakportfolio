@@ -1,0 +1,65 @@
+.skills {
+  max-width: 1100px;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.skills h1 {
+  color: #10151b;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-block {
+  border-radius: 18px;
+  margin: 25px;
+  padding: 15px 20px;
+  width: 180px;
+  max-width: 180px;
+  cursor: pointer;
+}
+.skill-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.skill-name {
+  background-color: rgba(202, 202, 202, 0.432);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2px 10px;
+  border-radius: 12px;
+}
+
+.blue {
+  background-image: linear-gradient(to bottom right, #6db0f7, #044fc2);
+}
+.purple {
+  background-image: linear-gradient(to bottom right, #873fc9, #4309b5);
+}
+.lila {
+  background-image: linear-gradient(to bottom right, #aabcee, #412c95);
+}
+.orange {
+  background-image: linear-gradient(to bottom right, #e07958, #d74d29);
+}
+.red {
+  background-image: linear-gradient(to bottom right, #f76d6d, #c23004);
+}
+
+.light-blue {
+  background-image: linear-gradient(to bottom right, #3ccfd7, #5a84da);
+}
+.light-purple {
+  background-image: linear-gradient(to bottom right, #426dd5, #8e5bdc);
+}
+.light-orange {
+  background-image: linear-gradient(to bottom right, #f7b561, #d0902f);
+}
+
+.green {
+  background-image: linear-gradient(to bottom right, #61f76e, #2fd0a0);
+}

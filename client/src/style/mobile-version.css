@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+  .img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .home-img {
+    display: none;
+  }
+  .home-description-section {
+    width: 100vw !important;
+  }
+  .slide-img-2 {
+    display: none;
+  }
+  .slide-img-3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .navbar {
+    display: none;
+  }
+  .nav-ham {
+    display: block !important;
+  }
+}

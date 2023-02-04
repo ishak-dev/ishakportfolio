@@ -1,0 +1,105 @@
+.project-list {
+  max-width: 960px;
+  margin: 150px auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.project-list h1 {
+  color: rgb(31, 31, 31);
+}
+.project-list-description {
+  color: rgb(122, 122, 122);
+}
+
+.project-list button {
+  display: inline-block;
+  color: black;
+}
+
+.project-list-container {
+  display: flex;
+  flex-wrap: nowrap;
+  transition: 0.4s linear;
+  justify-content: center;
+}
+.project {
+  width: 300px;
+
+  min-width: 300px;
+  margin: 10px;
+  border-radius: 18px;
+  padding: 50px 20px;
+  height: 400px;
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+
+.project p {
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main {
+  min-width: 100%;
+  height: 100%;
+  max-height: 400px;
+  max-width: 300px;
+  overflow-y: scroll;
+  animation: mymove 0.5s linear;
+}
+.main p {
+  -webkit-line-clamp: unset;
+}
+
+@keyframes mymove {
+  0% {
+    background-image: linear-gradient(to bottom right, #3ccfd7, #5a84da);
+  }
+  10% {
+    background-image: linear-gradient(to bottom right, #3cc0d7, #5a78da);
+  }
+  20% {
+    background-image: linear-gradient(to bottom right, #3ca6d7, #5a6dda);
+  }
+  30% {
+    background-image: linear-gradient(to bottom right, #3c99d7, #5a63da);
+  }
+  40% {
+    background-image: linear-gradient(to bottom right, #3c91d7, #635ada);
+  }
+  50% {
+    background-image: linear-gradient(to bottom right, #3c84d7, #6d5ada);
+  }
+  60% {
+    background-image: linear-gradient(to bottom right, #3c84d7, #7c5ada);
+  }
+  70% {
+    background-image: linear-gradient(to bottom right, #3c84d7, #875ada);
+  }
+  80% {
+    background-image: linear-gradient(to bottom right, #4275d5, #8e5bdc);
+  }
+  90% {
+    background-image: linear-gradient(to bottom right, #4275d5, #8e5bdc);
+  }
+  100% {
+    background-image: linear-gradient(to bottom right, #426dd5, #8e5bdc);
+  }
+}
+
+.slide-buttons {
+  width: 11px;
+  height: 11px;
+  margin: 5px;
+  border: none;
+  background-color: #5e7a92;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.slide-buttons-active {
+  width: 22px;
+  border-radius: 22px;
+}

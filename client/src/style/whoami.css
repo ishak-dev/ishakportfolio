@@ -1,5 +1,5 @@
 .projects {
-  width: 1100px;
+  max-width: 1100px;
   display: flex;
   padding: 50px;
   border-radius: 18px;
@@ -8,27 +8,38 @@
   margin-top: -200px;
 }
 
-.projects-img-section {
-  width: 30vw;
-  background-image: linear-gradient(to bottom left, #6cb1fe, #43b8fd, #5551e6);
-  overflow: hidden;
-  border-radius: 18px;
-}
 .project-background-img {
-  width: 400px;
+  margin-right: 20px;
+  width: 350px;
+  height: 400px;
+  border-radius: 18px;
+  background-image: linear-gradient(to bottom left, #6cb1fe, #43b8fd, #5551e6);
 }
 .projects-list {
-  width: 60vw;
+  width: 100%;
 }
 
 .projects-list ul {
   list-style-type: none;
   margin-top: 0px;
+  padding-left: 0px;
 }
 .projects-list ul li {
   padding: 10px 20px;
   background-image: linear-gradient(to right, #70a7fa, #065ae1);
   margin-bottom: 10px;
-
+  display: flex;
   border-radius: 12px;
+}
+.projects-list ul li p {
+  margin: auto;
+}
+
+.spec-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #065ae1;
+  border-radius: 4px;
+  padding: 3px;
+  margin-right: 10px;
 }

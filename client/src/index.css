@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Poppins&display=swap");
+
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0;
-  font-family: "Secular One", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: #f4f4ff;

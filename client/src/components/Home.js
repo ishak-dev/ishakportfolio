@@ -3,7 +3,7 @@ import homeImg from "../img/homeImg.svg";
 import "../style/home.css";
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="home-container">
         <div className="home-description-section">
           <h1>
@@ -12,7 +12,7 @@ const Home = () => {
           </h1>
         </div>
         <div className="home-img-section">
-          <img className="home-img" src={homeImg} alt="homeImg" />
+          <img className="home-img img" src={homeImg} alt="homeImg" />
         </div>
       </div>
     </div>
