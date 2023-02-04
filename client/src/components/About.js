@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="about-me">
       <div className="about-me-description">
-        <h1>Who am i and what am i doing</h1>
+        <h1>Who am I and what am I doing</h1>
         <p>
           My journey with software development starts in High school for
           Electrical Engineering which i enrolled in 2016. Through my education

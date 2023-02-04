@@ -5,7 +5,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .home-img {
+  .home-img-section {
     display: none;
   }
   .home-description-section {
@@ -25,5 +25,8 @@
   }
   .nav-ham {
     display: block !important;
+  }
+  .home-description-section h1 {
+    font-size: 40px;
   }
 }
