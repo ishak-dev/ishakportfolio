@@ -65,7 +65,9 @@ const ProjectsList = () => {
       </p>
       <div
         className="project-list-container"
-        style={{ translate: translateSize }}
+        style={{
+          transform: `translate(${translateSize}px)`,
+        }}
       >
         {project.map((data, i) => (
           <SingleProject key={i} data={data} selectProject={selectProject} />
