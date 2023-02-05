@@ -1,2 +1,7 @@
 client/node_modules
 client/build
+client/build/static/js/main.42c3448d.js.map
+*.txt
+client/build/static/js/main.42c3448d.js
+client/build/index.html
+client/build/asset-manifest.json
